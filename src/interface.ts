@@ -1,4 +1,4 @@
-interface PlayItem {
+export interface PlayItem {
   name: string;
   type: string;
 }
@@ -7,7 +7,7 @@ export interface Play {
   [propName: string]: PlayItem;
 }
 
-interface Performance {
+export interface Performance {
   playID: string;
   audience: number;
 }
